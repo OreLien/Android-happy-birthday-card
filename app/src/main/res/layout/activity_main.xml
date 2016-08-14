@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.orelien.happybirthday.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/beer"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Joyeux anniversaire !"
+        android:textSize="32sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"/>
+
+    <TextView
+        android:id="@+id/footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alizée !"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="32sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:paddingBottom="20dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sto_lat_2"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/footer"
+        android:adjustViewBounds="true"
+        android:padding="50dp"/>
+
+</RelativeLayout>
